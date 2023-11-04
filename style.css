@@ -1,0 +1,209 @@
+@media (min-width:992px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    #orange {
+
+        background-color: rgb(244, 168, 232);
+        border: 1px solid black;
+        width: 30%;
+        float: right;
+    }
+
+    #red {
+        float: right;
+        background-color: rgb(228, 67, 67);
+        border: 1px solid black;
+        width: 30%;
+    }
+
+    #cream {
+        float: right;
+        border: 1px solid black;
+        width: 30%;
+        background-color: wheat;
+    }
+
+    .para {
+        clear: both;
+        padding: 10px;
+    }
+
+
+    .container {
+        margin-top: 15vh;
+        width: 100vw;
+        text-align: center;
+    }
+
+
+    h2 {
+        margin-top: 25px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+
+
+    .boxes {
+        overflow: hidden;
+        margin: 7px;
+        display: inline-block;
+        height: 140px;
+        width: 30%;
+        background-color: grey;
+        border: 2px solid black;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    #orange {
+
+        background-color: rgb(244, 168, 232);
+        border: 1px solid black;
+        width: 30%;
+
+        float: right;
+    }
+
+    #red {
+        float: right;
+        background-color: rgb(228, 67, 67);
+        border: 1px solid black;
+        width: 30%;
+    }
+
+
+    #cream {
+        float: right;
+        border: 1px solid black;
+        width: 15%;
+        background-color: wheat;
+    }
+
+    .para {
+        clear: both;
+        padding: 10px;
+    }
+
+    .container {
+        margin-top: 20px;
+        width: 100vw;
+        text-align: center;
+    }
+
+
+    h2 {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+
+
+    .boxes {
+        overflow: hidden;
+        margin: 7px;
+        display: inline-block;
+        height: 140px;
+        /* width: 50%; */
+        background-color: grey;
+        border: 2px solid black;
+
+    }
+
+    .first {
+        width: 45%;
+        display: inline-block;
+        /* height: 200px; */
+    }
+
+    .second {
+        width: 45%;
+    }
+
+    .third {
+        width: 92vw;
+    }
+
+}
+
+@media (max-width:767px) {
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    #orange {
+
+        background-color: rgb(244, 168, 232);
+        border: 1px solid black;
+        width: 30%;
+        float: right;
+    }
+
+    #red {
+        float: right;
+        background-color: rgb(228, 67, 67);
+        border: 1px solid black;
+        width: 30%;
+    }
+
+
+    #cream {
+        float: right;
+        border: 1px solid black;
+        width: 30%;
+        background-color: wheat;
+    }
+
+    .para {
+        clear: both;
+        padding: 10px;
+    }
+
+    .container {
+        text-align: center;
+        margin: 30px;
+
+
+    }
+
+
+    h2 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+
+
+    .boxes {
+        overflow: hidden;
+        margin: 10px;
+        display: inline-block;
+        background-color: grey;
+        border: 2px solid black;
+        width: 70%;
+
+
+    }
+
+
+
+}
